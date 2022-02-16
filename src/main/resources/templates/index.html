@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Stealing BitCoin</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+
+<div class="content">
+    <h1>How to Steal BitCoin in Three Easy Steps</h1>
+
+    <p>Earlier this month, someone pulled off the largest heist in the history of Bitcoin, the virtual currency that approximates cash on the internet. The illegal drug bazaar Sheep Marketplace was plundered, either by hackers or insiders, and about $100 million worth of the currency was stolen from customers.</p>
+    <p>Bitcoin heists are actually not uncommon. In June of 2011, a user named Allinvain was the victim of what is arguably the first recorded major Bitcoin theft. Allinvain awoke to find that a hacker had stolen about half a million dollars’ worth of bitcoins. “I feel like killing myself now,” he wrote at the time.</p>
+    <p>There have been dozens of Bitcoin thefts since then. The supposedly high-return investment fund Bitcoin Savings & Trust turned out to be a pyramid scheme, its owner charged with ripping off investors for $4.5 million in bitcoins. MyBitcoin, a “wallet” service that stored bitcoins like a bank account, disappeared with about $1 million worth of users’ bitcoins. Several of the most trusted and well-known Bitcoin companies, including the Mt. Gox and the now-defunct Bitcoinica exchanges, have also suffered high-profile thefts.</p>
+    <p>Victims of credit card theft can cancel a card or reverse fraudulent transactions, but Bitcoin is attractive to thieves because its transactions are irreversible. “Bitcoin is like cash,” says Nicolas Christin, an assistant research professor at Carnegie Mellon University who has done extensive analysis of Bitcoin. “The only way to get it back is by tracking you down and basically beating you up with a lead pipe.”</p>
+    <p>But like all things Bitcoin, it’s difficult to understand exactly how digital theft works. What are you stealing, exactly? And once you’ve got it, what do you do with it?</p>
+
+    <p>
+        <ol>
+            <li><a th:href="@{/step/1}">Step 1: Copy the Keys</a></li>
+            <li><a th:href="@{/step/2}">Step 2: Get Away With It</a></li>
+            <li><a th:href="@{/step/3}">Step 3: Get Rich</a></li>
+        </ol>
+    </p>
+</div>
+
+<div th:replace="fragments/_footer :: footer"></div>
+</body>
+</html>

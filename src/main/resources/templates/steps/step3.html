@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Step 3</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+
+<div class="content">
+    <h1>Step 3: Get Rich</h1>
+
+    <p>Now you’ve got clean bitcoins — hopefully a lot of them! — and you’ve got your eye on a villa in the south of France. Unfortunately, the landlord doesn’t accept Bitcoin. Like most merchants in the world, she wants a government-sanctioned currency, preferably the euro.</p>
+    <p>So now you’ve got to convert your bitcoins to euros. But you’ve got a lot of bitcoins. If you’re the owner of Sheep Marketplace, you’ve got $100 millions’ worth. The Bitcoin economy is still tiny and relatively illiquid — there aren’t many buyers who could cash you out for that much Bitcoin all in one sale, and a transaction of that size would surely raise alarms. It also becomes much harder to conceal your identity when you exchange Bitcoin for other currencies. Most exchanges require some type of identifying information, and at the very least you need an account into which the euros can be deposited.</p>
+    <p>It’s time to get creative. There are several ways you can unload a lot of Bitcoin while maintaining your anonymity. Find a rich buyer who is willing to take the bitcoins without verifying your identity in exchange for a discount on the price, for example. However, the best way to protect yourself is to remain patient. Unload your bitcoins in a series of transactions over weeks, ideally months or even years, in order to avoid arousing suspicion from those watching the blockchain as well as real-life authorities that might wonder how you suddenly came into millions of dollars.</p>
+    <p>Now, enjoy life in France.</p>
+
+    <p><img th:src="@{/img/getting_rich.png}" height="300"></p>
+</div>
+
+<div th:replace="fragments/_footer :: footer"></div>
+</body>
+</html>
